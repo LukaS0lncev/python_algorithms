@@ -1,3 +1,6 @@
+'''
+Алгоритм Сортировка слиянием
+'''
 import random
 import operator
 
