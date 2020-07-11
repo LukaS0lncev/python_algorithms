@@ -19,10 +19,9 @@ def karatsuba(x,y):
     step_2 = b * d
     step_3 = (a + b) * (c + d)
     step_4 = step_3 - step_1 - step_2
-    step_5 = (step_1 * (10 ** 4)) + (step_2 * (10 ** 2)) + step_4
+    step_5 = (step_1 * (10 ** 4)) + (step_4 * (10 ** 2)) + step_2
     return step_5
 
-x = 3141592653589793238462643383279502884197169399375105820974944592
-y = 2718281828459045235360287471352662497757247093699959574966967627
+x = 5678
+y = 1234
 result = karatsuba(x,y)
-print(result)
